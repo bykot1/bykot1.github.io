@@ -145,14 +145,14 @@ a:hover, a:active, a:focus {
   padding-bottom: 32px;
 }
 
-#service, #about, #work,
+#skills, #about, #work,
 #contact, footer {
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
-#service, #work {
+#skills, #work {
   background: #f9f9f9;
   text-align: center;
 }
@@ -235,7 +235,7 @@ a:hover, a:active, a:focus {
   Service section              
 -----------------------------------------*/
 
-.service-thumb {
+.skills-thumb {
   background: #ffffff;
   border-radius: 5px;
   padding: 42px 22px;
@@ -246,21 +246,21 @@ a:hover, a:active, a:focus {
   transition: all ease-in-out 0.4s;
 }
 
-.service-thumb:hover {
+.skills-thumb:hover {
   background: #2b2b2b;
   top: -5px;
 }
 
-.service-thumb:hover .fa,
-.service-thumb:hover h4 {
+.skills-thumb:hover .fa,
+.skills-thumb:hover h4 {
   color: #ffffff;
 }
 
-.service-thumb h4 {
+.skills-thumb h4 {
   padding-bottom: 5px;
 }
 
-.service-thumb .fa {
+.skills-thumb .fa {
   color: #7682cc;
   font-size: 62px;
   text-align: center;
@@ -314,11 +314,11 @@ a:hover, a:active, a:focus {
 }
 
 .work-thumb img {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .work-thumb h2 {
-  font-size: 25px;
+  font-size: 200px;
 }
 
 .work-thumb-overlay {
@@ -341,50 +341,6 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  Contact section              
------------------------------------------*/
-
-.contact-info .fa {
-  padding-right: 5px;
-}
-
-#contact .form-control {
-  border: none;
-  border-bottom: 2px solid #f0f0f0;
-  border-radius: 0px;
-  box-shadow: none;
-  font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
-}
-
-#contact .form-control:focus {
-  border-bottom-color: #999999;
-}
-
-#contact input {
-  height: 55px;
-}
-
-#contact button#submit {
-  background: #2b2b2b;
-  border: none;
-  border-radius: 50px;
-  color: #ffffff;
-  height: 50px;
-  margin-top: 24px;
-}
-
-#contact button#submit:hover {
-  background: #7682cc;
-  color: #ffffff;
-}
-
-
-
-/*---------------------------------------
   Footer section              
 -----------------------------------------*/
 
@@ -401,49 +357,6 @@ footer p {
 
 
 /*---------------------------------------
-  Social icon             
------------------------------------------*/
-
-.social-icon {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-.social-icon li {
-  display: inline-block;
-  list-style: none;
-}
-
-.social-icon li a {
-  background: #ffffff;
-  border-radius: 100%;
-  color: #454545;
-  cursor: pointer;
-  font-size: 20px;
-  text-decoration: none;
-  transition: all 0.4s ease-in-out;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-  vertical-align: middle;
-  position: relative;
-  top: 0;
-  margin: 0px 6px 10px 6px;
-}
-
-.social-icon li a:hover {
-  background: #000000;
-  color: #ffffff;
-  transform: scale(1.1);
-  top: -5px;
-}
-
-
-
-/*---------------------------------------
   Mobile Responsive styles              
 -----------------------------------------*/
 
@@ -452,7 +365,7 @@ footer p {
     height: 55vh;
   }
 
-  .service-thumb {
+  .skills-thumb {
     margin-top: 12px;
     margin-bottom: 22px;
   }
