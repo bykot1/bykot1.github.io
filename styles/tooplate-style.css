@@ -6,7 +6,7 @@ http://www.tooplate.com/view/2087-kalay
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
 
 body {
-    background: #ffffff;
+    background: lightgray;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -18,10 +18,26 @@ html, body {
   height: 100%;
 }
 
+.title {
+  animation-delay: 0.6s;
+  animation-name: fadeInUp;
+  color: white;
+  font-weight: bolder;
+}
+
+#name {
+  font-size: 3em;
+  padding-top: 7.5em;
+}
+
+#occupation, #about-details {
+  padding-top: 1em;
+  font-size: 2em;
+}
 
 
 /*---------------------------------------
-  Typorgraphy              
+  Typography              
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
@@ -52,12 +68,12 @@ h3 {
 }
 
 h4 {
-  color: #353535;
+  color: #e3dbdb;
   font-size: 20px;
 }
 
 p {
-  color: #878787;
+  color: rgb(0, 0, 0);
   font-size: 16px;
   font-weight: normal;
   line-height: 25px;
@@ -210,7 +226,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../pictures/main_bg_image.png') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -233,7 +249,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .skills-thumb {
-  background: #ffffff;
+  background: #7682cc;
   border-radius: 5px;
   padding: 42px 22px;
   cursor: crosshair;
@@ -244,12 +260,13 @@ a:hover, a:active, a:focus {
 }
 
 .skills-thumb:hover {
-  background: #2b2b2b;
+  background: #000000;
   top: -5px;
 }
 
 .skills-thumb:hover .fa,
-.skills-thumb:hover h4 {
+.skills-thumb:hover h4,
+.skills-thumb:hover p {
   color: #ffffff;
 }
 
