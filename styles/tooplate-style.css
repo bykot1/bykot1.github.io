@@ -21,18 +21,22 @@ html, body {
 .title {
   animation-delay: 0.6s;
   animation-name: fadeInUp;
-  color: rgb(46, 43, 43);
+  color: rgb(255, 255, 255);
   font-weight: bolder;
+  
+}
+
+#title-div {
+  margin-bottom: 35em;
 }
 
 #name {
-  font-size: 3em;
-  padding-top: 7.5em;
+  font-size: 5em;
 }
 
 #occupation, #about-details {
   padding-top: 1em;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 
@@ -226,7 +230,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  /* background: url('../pictures/main_bg_image.png') 50% 0 repeat-y fixed; */
+  background: url('../pictures/Sedona\ Hike.JPG') 60% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -391,6 +395,15 @@ footer p {
   .contact-info {
     margin-top: 22px;
   }
+  
+  #occupation, #about-details {
+    padding-top: 1em;
+    font-size: 1.5em;
+  }
+  .title {
+    margin-left: 15%;
+    margin-right: 5%;
+  }
 }
 
 
@@ -398,6 +411,7 @@ footer p {
   #home {
     height: 85vh;
   }
+
 }
 
 
